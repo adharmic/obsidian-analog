@@ -37,6 +37,10 @@ export class AnalogView extends ItemView {
     getDisplayText() {
         return "Analog Clock View";
     }
+    
+    getIcon(): string {
+        return "clock";
+    }
 
     async onOpen() {
 		this.containerEl.empty();
